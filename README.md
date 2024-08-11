@@ -24,7 +24,7 @@ This repository contains a Go-based WebSocket server that dynamically switches b
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/websocket-server.git
+git clone https://github.com/vedxk/TextStreamingEndpoint.git
 cd TextStreamingEndpoint
 ```
 
