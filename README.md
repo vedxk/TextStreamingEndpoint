@@ -12,7 +12,7 @@ This repository contains a Go-based WebSocket server that dynamically switches b
 
 - **Go WebSocket Server (`websocketserver.go`)**: The main WebSocket server code.
 - **Inference Logic (`inference.go`)**: Contains the logic for handling multiple inference providers.
-- **Python Test Client (`websocket_test.py`)**: A Python script that connects multiple clients to the WebSocket server to test its functionality.
+- **Python Test Client (`ConnectionTest.py`)**: A Python script that connects multiple clients to the WebSocket server to test its functionality.
 
 ## Prerequisites
 
@@ -25,5 +25,19 @@ This repository contains a Go-based WebSocket server that dynamically switches b
 
 ```bash
 git clone https://github.com/yourusername/websocket-server.git
-cd websocket-server
+cd TextStreamingEndpoint
+```
+
+### Run the Server
+
+```bash
+go run main.go
+```
+
+### Test the endpoint
+
+- Open another Terminal
+```bash
+Python3 ConnectionTest.py
+```
 
